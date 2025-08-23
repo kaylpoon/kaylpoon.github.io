@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DL Dance Art School</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .carousel,
+        .carousel-track img {
+            height: calc(100vh - var(--navbar-height));
+        }
+
+        #explore {
+            padding: 1.5rem 3rem;
+            background-color: var(--background-color);
+            text-align: center;
+        }
+
+        #explore .tile {
+            margin: .75rem .5rem 2.5rem;
+            background-color: white;
+        }
+
+        #explore img {
+            aspect-ratio: 5 / 4;
+            border-radius: .25rem .25rem 0rem 0rem;
+        }
+
+        #perform {
+            text-align: center;
+        }
+
+        #perform .content {
+            margin: 0rem;
+        }
+
+        #awards {
+            padding: 1.5rem 3rem;
+            text-align: center;
+        }
+
+        #awards h2,
+        #perform h2 {
+            padding-bottom: 1rem;
+        }
+
+        .awards img {
+            aspect-ratio: 4 / 3;
+            width: 60%;
+        }
+
+        i {
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <script src="nav.js"></script>
+    <script src="img.js"></script>
+
+    <div class="hero carousel">
+        <!-- <img src="resources/images/Orange.avif" alt=""> -->
+        <button id="left"><img src="resources/images/caret-left-svgrepo-com.svg" alt=""></button>
+        <div class="carousel-container slider-container-trasition">
+            <ul class="carousel-track">
+                <li class="slide" data-position="1"><img src="resources/images/Orange.avif" alt=""></li>
+                <li class="slide" data-position="2"><img src="resources/images/children.avif" alt=""></li>
+                <li class="slide" data-position="3"><img src="resources/images/adults.avif" alt=""></li>
+            </ul>
+        </div>
+        <button class="move-button" id="right"><img src="resources/images/caret-right-svgrepo-com.svg" alt=""></button>
+    </div>
+
+    <div class="section wrap">
+        <div class="content">
+            <h1>Welcome to DL Dance Art School</h1>
+            <h3><i>Inspire Through Art, Nurture Through Beauty</i></h3>
+            <p>At Dan Liu Dance Art School, we believe that performance has the power to ignite passion and transform lives. In our supportive environment, you’ll develop your skills, build confidence, and unleash your true artistic potential. Whether you’re just starting out or ready to take your talent to the next level, we’re here to help you grow and shine.
+Join us today and begin your journey toward becoming the artist you're meant to be.</p>
+            <button class="learn-more"><a href="story.html">Discover Our Story</a></button>
+        </div>
+        <div class="content">
+            <img class="photo-1" src="resources/images/Fei Tian.avif" alt="">
+        </div>
+    </div>
+
+    <div class="section" id="explore">
+        <h2>Explore Our School</h2>
+        <div class="tile-container">
+            <div class="tile">
+                <img src="resources/images/young children.avif" alt="">
+                <div class="tile-info">
+                    <h3>Class Offerings</h3>
+                    <p>Classes ranging from age 3 to adults</p>
+                    <button class="learn-more"><a href="classes.html">View Classes</a></button>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="resources/images/children.avif" alt="">
+                <div class="tile-info">
+                    <h3>Dance Company</h3>
+                    <p>A rigorous competition team for serious dancers</p>
+                    <button class="learn-more"><a href="classes.html#company">Learn More</a></button>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="resources/images/adults.avif" alt="">
+                <div class="tile-info">
+                    <h3>Class Schedule</h3>
+                    <p>View full Scedule</p>
+                    <button class="learn-more"><a href="schedule.html">View Schedule</a></button>
+                </div>
+            </div>
+            <div class="tile">
+                <img src="resources/images/adults.avif" alt="">
+                <div class="tile-info">
+                    <h3>Register</h3>
+                    <p>Registration is open for fall 2025</p>
+                    <button class="learn-more"><a href="">Learn More</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section" id="perform">
+        <h2>DL Dance Art School's 8th Performance</h2>
+        <div class="content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9EICY-pyzhw?si=aCTMpKn3pQXQ6abz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <button class="learn-more"><a href="videos.html">More Videos</a></button>
+    </div>
+
+    <div class="section" id="awards">
+        <h2>2025 Competition Season</h2>
+        <div class="tile-container">
+            <div class="tile">
+                <div class="awards">
+                    <img src="resources/images/Chaming Princess 1.avif" alt="">
+                    <img src="resources/images/Charming Princess 2.avif" alt="image">
+                </div>
+                <div class="tile-info">
+                    <h3>Charming Princess</h3>
+                    <p>泛美国际桃李杯舞蹈大赛2024-2025北美总决赛，刘丹老师荣获“优秀编导奖”！，学生Karlie Zhu，独舞《俏格格》，荣获Overall 铂金奖,幼儿中阶组“第一名”！，《刘丹舞蹈艺术学校》荣获“桃李舞者之家”</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="awards">
+                    <img src="resources/images/Duet 1.avif" alt="">
+                    <img src="resources/images/Duet 2.avif" alt="image">
+                </div>
+                <div class="tile-info">
+                    <h3>Poetic Jiangnan in Soothing Rain</h3>
+                    <p>傣族双人舞“诗雨江南”2025 Showstopper Regionals Overall 全场总分铂金“第一名”！</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="awards">
+                    <img src="resources/images/Orange 1.avif" alt="">
+                    <img src="resources/images/Orange 2.avif" alt="image">
+                </div>
+                <div class="tile-info">
+                    <h3>Ode to the Orange</h3>
+                    <p>汉唐舞《橘颂》，Petite Large Group，荣获Showstopper Regionals Overall 全场总分“第二名”！StarQuest Galveston World Finals
+全国总决赛， Platinum Plus双铂金Overall 总分“第三名”！</p>
+                </div>
+            </div>
+        </div>
+        <div class="tile-container">
+            <div class="tile">
+                <div class="awards">
+                    <img src="resources/images/Trio 1.avif" alt="">
+                    <img src="resources/images/Trio 2.avif" alt="image">
+                </div>
+                <div class="tile-info">
+                    <h3>Swinging Braids</h3>
+                    <p>三人舞《甩小辫 Swinging Braids》2025 Starquest Performance category award民族舞“第一名” ；Showstopper Advance Level中级组全场Platinum Overall总分铂金第五名，最佳化妆服装奖!</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="awards">
+                    <img src="resources/images/Peacock 1.avif" alt="">
+                    <img src="resources/images/Princess 2.avif" alt="image">
+                </div>
+                <div class="tile-info">
+                    <h3>Peacock Princess</h3>
+                    <p>9-10岁 Small Group 《孔雀公主》2025 Showstopper Regionals Overall 全场总分铂金“第三名”！</p>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="awards">
+                    <img src="resources/images/Water 1.avif" alt="">
+                    <img src="resources/images/Water 2.avif" alt="image">
+                </div>
+                <div class="tile-info">
+                    <h3>Treading Water</h3>
+                    <p>5-6岁 Small Group 《踩水舞》2025 Showstopper Regionals 小组“第一名”，Overall 全场总分“第五名”！</p>
+                </div>
+            </div>
+        </div>
+        <button class="learn-more"><a href="awards.html">View Our Awards</a></button>
+    </div>
+
+    <div></div>
+
+</body>
+</html>
+
+<!-- file:///C:/Users/kaili/CSProjects/VisualStudioCodeProjects/DLDanceWebsite/index.html -->
