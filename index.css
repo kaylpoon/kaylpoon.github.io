@@ -14,7 +14,7 @@ body {
   --side-margin: 3rem;
   --background-color: #f4c6c6;
   /* --background-color: #ad333c; */
-  --font-color-1: #f0418a;
+  /* --font-color-1: #f0418a; */
   --color: #fadadd;
   --color: #d8a7b1;
   --color: #b76e79;
@@ -246,7 +246,7 @@ header {
     position: relative;
     width: 1.2rem;
     height: 1.2rem;
-    filter: brightness(0) saturate(100%) invert(39%) sepia(71%) saturate(3546%) hue-rotate(313deg) brightness(99%) contrast(90%);
+    /* filter: brightness(0) saturate(100%) invert(39%) sepia(71%) saturate(3546%) hue-rotate(313deg) brightness(99%) contrast(90%); */
 }
 
 .navbar li,
