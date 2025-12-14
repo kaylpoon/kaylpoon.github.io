@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </ul>
         </div>
         <div class="tile tile-info">
-            <img id="wechat" src="resources/images/Wechat.avif" alt="">
+            <img id="wechat" src="Wechat.avif" alt="">
         </div>
         <div class="tile tile-info">
             <h3>Follow Us</h3>
@@ -73,5 +73,6 @@ document.addEventListener("DOMContentLoaded", () => {
   `;
   document.body.appendChild(footer);
 });
+
 
 
